@@ -1,155 +1,214 @@
 .line {
-    display: flex;
-    justify-content: center;
-    border: 0px;
-    height: 2px;
-    background: linear-gradient(100deg, rgb(190, 188, 188), rgb(94, 92, 92));
-    margin-top: 60px;
-    margin-left: 130px;
-    margin-right: 130px;
+  display: flex;
+  justify-content: center;
+  border: 0px;
+  height: 2px;
+  background: linear-gradient(100deg, rgb(190, 188, 188), rgb(94, 92, 92));
+  margin-top: 60px;
+  margin-left: 130px;
+  margin-right: 130px;
 }
 
 p {
-    color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-    margin-top: 80px;
-    margin-bottom: -50px;
-    font-size: 55px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-    margin-bottom: 50px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  font-size: 55px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  margin-bottom: 50px;
+  text-align: center;
+  padding: 0 15px;
 }
 
 .pro-detail {
-    font-size: 20px;
-    font-weight: 200;
-    margin-top: -20px;
-    
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: -20px;
+  text-align: center;
+  padding: 0 15px;
 }
 
 .project-container {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    flex-wrap: nowrap;
-    margin-top: 50px;
-    padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: nowrap;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .pro-card {
-    background: linear-gradient(100deg, rgba(190, 188, 188, 0.3), rgba(94, 92, 92, 0.3));
-
-    color: #ffffff;
-    border-radius: 20px;
-    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.65);
-    padding: 30px;
-    flex: 1;
-    max-width: 420px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(100deg, rgba(190, 188, 188, 0.3), rgba(94, 92, 92, 0.3));
+  color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.65);
+  padding: 30px;
+  flex: 1;
+  max-width: 420px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .pro-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.85);
+  transform: translateY(-8px);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.85);
 }
 
 .pro-name {
-    font-size: 22px;
-    font-weight: 600;
-    margin: 16px 0 12px;
-    text-align: left;
-    color: #ffffff;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 16px 0 12px;
+  text-align: left;
+  color: #ffffff;
 }
 
 .yt-img,
-.store,.weather {
-    display: flex;
-    justify-content: center;
-    width: 400px;
-    margin-left: -20px;
-    border-radius: 14px;
-    margin-bottom: 16px;
-    margin-top: -10px;
-    display: block;
-    object-fit: cover;
-    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.6);
+.store,
+.weather,
+.clock {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 14px;
+  margin: 0 auto 16px auto;
+  display: block;
+  object-fit: cover;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.6);
 }
-.clock{
-    display: flex;
-    justify-content: center;
-    width: 400px;
-    margin-left: -20px;
-    border-radius: 14px;
-    margin-bottom: 2px;
-    margin-top: 10px;
-    display: block;
-    object-fit: cover;
-    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.6);
+
+.clock {
+  margin: 10px auto 10px auto;
 }
 
 h4 {
-    margin-top: 10px;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.6;
-    color: #ededed;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #ededed;
 }
 
 .git-link {
-    display: inline-block;
-    margin-top: 18px;
-    padding: 10px 20px;
-    background: linear-gradient(135deg, #3a3a3a, #565656);
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: 600;
-    text-decoration: none;
-    border-radius: 8px;
-    transition: all 0.3s ease;
+  display: inline-block;
+  margin-top: 18px;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #3a3a3a, #565656);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
 }
 
 .git-link:hover {
-    background: linear-gradient(135deg, #606060, #808080);
-    transform: translateY(-3px);
-    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.45);
+  background: linear-gradient(135deg, #606060, #808080);
+  transform: translateY(-3px);
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.45);
 }
+
 .git-link-weather {
-    display: inline-block;
-    margin-top: 1px;
-    padding: 5px 10px;
-    background: linear-gradient(135deg, #3a3a3a, #565656);
-    color: #ffffff;
-    font-size: 12px;
-    font-weight: 600;
-    text-decoration: none;
-    border-radius: 8px;
-    transition: all 0.3s ease;
-    margin-bottom: 10px;
+  display: inline-block;
+  margin-top: 1px;
+  padding: 5px 10px;
+  background: linear-gradient(135deg, #3a3a3a, #565656);
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  margin-bottom: 10px;
 }
 
 .git-link-weather:hover {
-    background: linear-gradient(135deg, #606060, #808080);
-    transform: translateY(-3px);
-    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.45);
+  background: linear-gradient(135deg, #606060, #808080);
+  transform: translateY(-3px);
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.45);
 }
+
 .git-link-clock {
-    display: inline-block;
-    margin-top: 1px;
-    padding: 5px 10px;
-    background: linear-gradient(135deg, #3a3a3a, #565656);
-    color: #ffffff;
-    font-size: 12px;
-    font-weight: 600;
-    text-decoration: none;
-    border-radius: 8px;
-    transition: all 0.3s ease;
-    margin-bottom: -10px;
+  display: inline-block;
+  margin-top: 1px;
+  padding: 5px 10px;
+  background: linear-gradient(135deg, #3a3a3a, #565656);
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  margin-bottom: -10px;
 }
 
 .git-link-clock:hover {
-    background: linear-gradient(135deg, #606060, #808080);
-    transform: translateY(-3px);
-    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.45);
+  background: linear-gradient(135deg, #606060, #808080);
+  transform: translateY(-3px);
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.45);
+}
+
+@media (max-width: 768px) {
+  .line {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 35px;
+  }
+
+  p {
+    font-size: 30px;
+    margin-top: 45px;
+    margin-bottom: 25px;
+  }
+
+  .pro-detail {
+    font-size: 15px;
+    margin-top: -10px;
+  }
+
+  .project-container {
+    flex-wrap: wrap;
+    gap: 22px;
+    margin-top: 30px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .pro-card {
+    max-width: 360px;
+    width: 100%;
+    padding: 20px 16px;
+    border-radius: 16px;
+  }
+
+  .pro-name {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  h4 {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .git-link {
+    font-size: 13px;
+    padding: 10px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pro-card {
+    max-width: 320px;
+  }
+
+  p {
+    font-size: 26px;
+  }
+
+  .pro-detail {
+    font-size: 14px;
+  }
 }
