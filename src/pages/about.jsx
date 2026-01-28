@@ -39,7 +39,7 @@ function About() {
               <p className="about-label">Skills & Interests</p>
               <p className="about-detail">
                 Frontend Development (React.js, JavaScript, CSS), Backend Basics (Node.js), MYSQL,  
-                UI/UX design (Figma), and Open-Source Contribution (Git/GitHub).
+                UI/UX design, and Open-Source Contribution (Git/GitHub).
               </p>
             </div>
           </div>
